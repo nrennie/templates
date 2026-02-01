@@ -1,0 +1,18 @@
+# usefunc ![](reference/figures/logo.png)
+
+An R package with some useful templates, and functions to install them
+into a project.
+
+## Installation
+
+``` r
+remotes::install_github("nrennie/templates")
+```
+
+# Package index
+
+## All functions
+
+- [`use_tt_template()`](https://nrennie.github.io/templates/reference/use_tt_template.md)
+  : Create folder and files for \#TidyTuesday data viz
+
