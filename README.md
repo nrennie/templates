@@ -2,7 +2,7 @@
   [![R-CMD-check](https://github.com/nrennie/templates/workflows/R-CMD-check/badge.svg)](https://github.com/nrennie/templates/actions)
 <!-- badges: end -->
 
-# usefunc <img src="man/figures/logo.png" align="right" width="120" />
+# templates
 
 An R package with some useful templates, and functions to install them into a project.
 

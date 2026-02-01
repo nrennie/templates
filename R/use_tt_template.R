@@ -29,7 +29,7 @@ use_tt_template <- function(date_chr = "2025-12-31",
       message("Created '.R' file")
       # copy lines to .R file
       r_txt <- readLines(system.file("tt/tt-template.R",
-        package = "usefunc",
+        package = "templates",
         mustWork = TRUE
       ))
       # replace placeholder text with variables
@@ -59,7 +59,7 @@ use_tt_template <- function(date_chr = "2025-12-31",
       message("Created '.py' file")
       # copy lines to .py file
       r_txt <- readLines(system.file("tt/tt-template.py",
-        package = "usefunc",
+        package = "templates",
         mustWork = TRUE
       ))
       # replace placeholder text with variables
@@ -88,7 +88,7 @@ use_tt_template <- function(date_chr = "2025-12-31",
       file.create(new_file)
       message("Created '.js' file")
       js_txt <- readLines(system.file("tt/tt-template.js",
-        package = "usefunc",
+        package = "templates",
         mustWork = TRUE
       ))
       writeLines(js_txt, con = new_file)
@@ -100,7 +100,7 @@ use_tt_template <- function(date_chr = "2025-12-31",
       file.create(new_r_file)
       message("Created '.R' file")
       r_txt <- readLines(system.file("tt/tt-js-template.R",
-        package = "usefunc",
+        package = "templates",
         mustWork = TRUE
       ))
       r_txt <- gsub(
@@ -122,7 +122,7 @@ use_tt_template <- function(date_chr = "2025-12-31",
       file.create(new_html_file)
       message("Created 'index.html' file")
       html_txt <- readLines(system.file("tt/tt-template.html",
-        package = "usefunc",
+        package = "templates",
         mustWork = TRUE
       ))
       # replace placeholder text with variables
@@ -142,7 +142,7 @@ use_tt_template <- function(date_chr = "2025-12-31",
       message("Created 'README.md' file")
       # copy lines to README file
       readme_txt <- readLines(system.file("tt/tt-readme-template.md",
-        package = "usefunc",
+        package = "templates",
         mustWork = TRUE
       ))
       # replace placeholder text with variables
