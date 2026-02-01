@@ -1,4 +1,4 @@
-# usefunc ![](reference/figures/logo.png)
+# templates
 
 An R package with some useful templates, and functions to install them
 into a project.
