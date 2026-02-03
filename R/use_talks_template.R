@@ -22,8 +22,8 @@ use_talks_template <- function(date_chr = "2025-12-31", slug) {
     message("Created 'index.qmd' file")
     # copy lines to index.qmd file
     r_txt <- readLines(system.file("talks/index.qmd",
-                                   package = "templates",
-                                   mustWork = TRUE
+      package = "templates",
+      mustWork = TRUE
     ))
     r_txt <- gsub(
       pattern = "date_chr",
@@ -39,6 +39,6 @@ use_talks_template <- function(date_chr = "2025-12-31", slug) {
     writeLines(r_txt, con = new_file)
     message("'index.qmd' contents copied")
   }
-  
+
   message("Template successfully copied!")
 }
