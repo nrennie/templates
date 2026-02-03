@@ -1,0 +1,19 @@
+---
+title: "Title"
+date: date_chr
+description: "Text"
+image: "featured.png"
+categories:
+  - Data Visualisation
+format:
+  html:
+    comments:
+      utterances:
+         repo: nrennie/nrennie.github.io-comments
+    code-fold: true
+engine: knitr
+execute: 
+  warning: false
+---
+
+Text
