@@ -66,8 +66,8 @@ theme_minimal(base_size = 10, base_family = body_font) +
     ),
     plot.subtitle = element_textbox_simple(
       colour = text_col,
-      hjust = 0.5,
-      halign = 0.5,
+      hjust = 0,
+      halign = 0,
       margin = margin(b = 5, t = 5),
       family = body_font
     ),
