@@ -1,0 +1,16 @@
+---
+title: "Title"
+description: "Text"
+date: date_chr
+image: "featured.png"
+location: "Text"
+link1: '{{< iconlink "slug/slides.html" "Slides" "download" >}}'
+categories:
+  - Data Visualisation
+---
+
+{{< iconlink "slides.html" "Slides" "download" >}} 
+
+## Section title
+
+Text
