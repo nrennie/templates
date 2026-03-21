@@ -3,3 +3,4 @@
 export(use_blog_template)
 export(use_talks_template)
 export(use_tt_template)
+export(use_viz_template)
