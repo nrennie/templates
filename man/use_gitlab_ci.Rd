@@ -7,9 +7,11 @@
 use_gitlab_ci(type, overwrite = FALSE)
 }
 \arguments{
-\item{type}{Type of CI/CD pipeline. Options include \code{"pages"}, \code{"quarto"}, \code{"quarto-r"}, or \code{"pkgdown"}.}
+\item{type}{Type of CI/CD pipeline. Options include \code{"pages"}, \code{"quarto"},
+\code{"quarto-r"}, or \code{"pkgdown"}.}
 
-\item{overwrite}{Boolean to overwrite existing file if it exists. Default \code{FALSE}.}
+\item{overwrite}{Boolean to overwrite existing file if it exists.
+Default \code{FALSE}.}
 }
 \value{
 a message if template file was successfully copied over
