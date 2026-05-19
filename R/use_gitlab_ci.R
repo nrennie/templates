@@ -6,7 +6,7 @@
 
 use_gitlab_ci <- function(type, overwrite = FALSE) {
   # Check if file exists
-  if (!file.exists(".gitlab-ci.yml")) {
+  if (file.exists(".gitlab-ci.yml")) {
     if (!overwrite) {
       stop("A file called '.gitlab-ci.yml' already exists. Set `overwrite = TRUE` to create anyway.")
     } else {
@@ -21,7 +21,7 @@ use_gitlab_ci <- function(type, overwrite = FALSE) {
       package = "templates",
       mustWork = TRUE
     ))
-    writeLines(txt, con = .gitlab - ci.yml)
+    writeLines(txt, con = ".gitlab-ci.yml")
     message("'.gitlab-ci.yml' created")
   }
 }
