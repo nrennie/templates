@@ -19,7 +19,7 @@ use_gitlab_ci <- function(type, overwrite = FALSE) {
   } else {
     file.create(".gitlab-ci.yml")
 
-    template_name <- paste0("gitlab/.gitlab-ci-", type, ".yml")
+    template_name <- paste0("gitlab/gitlab-ci-", type, ".yml")
 
     txt <- readLines(system.file(template_name,
       package = "templates",
