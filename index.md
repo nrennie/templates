@@ -6,5 +6,6 @@ into a project.
 ## Installation
 
 ``` r
+
 remotes::install_github("nrennie/templates")
 ```
