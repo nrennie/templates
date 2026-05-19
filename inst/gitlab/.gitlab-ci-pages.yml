@@ -1,0 +1,9 @@
+pages:
+  stage: deploy
+  script:
+    - echo 'Publishing existing public folder'
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

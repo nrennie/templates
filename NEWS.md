@@ -1,3 +1,7 @@
+## templates 0.0.4 2026_05_19
+
+* Add GitLab CI templates
+
 ## templates 0.0.3 2026_03_21
 
 * Add generic visualisation template

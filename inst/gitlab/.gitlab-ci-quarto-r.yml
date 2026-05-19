@@ -1,0 +1,27 @@
+image: rocker/verse:latest
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  before_script:
+    # Install Quarto
+    - curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
+    - apt-get install -y ./quarto-linux-amd64.deb
+    # Install R packages
+    - Rscript -e "install.packages('palmerpenguins')"
+  script:
+    - quarto render
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: always
+    - when: manual
+  cache:
+    key: r-packages
+    paths:
+      - $R_LIBS_USER
+    

@@ -1,0 +1,16 @@
+image: ghcr.io/quarto-dev/quarto:latest
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - quarto render
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: always
+    - when: manual
