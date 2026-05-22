@@ -1,3 +1,7 @@
+## templates 0.0.5 2026_05_22
+
+* Add (Claude) skills.md templates
+
 ## templates 0.0.4 2026_05_19
 
 * Add GitLab CI templates
