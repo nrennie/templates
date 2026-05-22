@@ -18,6 +18,8 @@ remotes::install_github("nrennie/templates")
   : Create folder and files for website blog post
 - [`use_gitlab_ci()`](https://nrennie.github.io/templates/reference/use_gitlab_ci.md)
   : Create GitLab CI/CD file
+- [`use_skills()`](https://nrennie.github.io/templates/reference/use_skills.md)
+  : Create Skills.md file
 - [`use_talks_template()`](https://nrennie.github.io/templates/reference/use_talks_template.md)
   : Create folder and files for website blog post
 - [`use_tt_template()`](https://nrennie.github.io/templates/reference/use_tt_template.md)
