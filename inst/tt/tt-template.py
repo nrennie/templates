@@ -73,4 +73,4 @@ ht.fig_text(
 # Save --------------------------------------------------------------------
 
 fpath = os.path.join(yr, date_chr, f'{date_strip}.png')
-g.save(fpath, dpi=300)
+fig.savefig(fpath, dpi=300)
